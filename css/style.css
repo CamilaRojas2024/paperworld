@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 700; 
+    font-size: 18px;
+
+}
+
+button, .btn {
+    font-family: 'Inter', sans-serif;
+}
+
+#kalam-font {
+    font-family: 'Kalam', sans-serif;
+}
+
+.banner {
+    background-color: #090F50;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.card,
+.team {
+    margin: 15px 0;
+}
+
+
+.card {
+    margin: 15px 0;
+}
+
+#card-marcas {
+    width: 10rem;
+}
+
+#Contenedor {
+    background-color: black;
+}
+
+.frase {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    background-color: #090F50;
+}
+
+.frase-cuadernos {
+    display: contents;
+    width: 90px;
+    background-color: blue;
+}
+
+
+#vale {
+    color: aliceblue;
+    text-align: center;
+}
+
+#marcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.img-thumbnail {
+    width: 50px;
+    height: auto;
+}
+
+.descuentos {
+    height: 470px;
+    background-color: #D4E2FF;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-descuentos {
+    width: 100%;
+    height: 600px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.col-3 {
+    flex: 1 1 30%;
+    max-width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .col-3 {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+#inp1 {
+    position: absolute;
+    color: #000;
+    width: 15rem;
+    height: 35px;
+    top: 30%;
+    left: 52rem;
+    background-color:  #D4E2FF;
+    color: #BBCEF6;
+    font-size: 12px;
+}
+
+.logo-social {
+    width: 40px;
+    height: 40px;
+}
+
+#logo-paper,
+#logo-paper-armatulista,
+#logo-paper-nosotros,
+#logo-paper-cuadernos,
+#logo-paper-morrales,
+#logo-paper-marcadores,
+#logo-paper-carrito,
+#logo-paper-compraexitosa,
+#logo-paper-carritovacio {
+    position: absolute;
+    right: 0;
+    width: 150px;
+    height: 150px;
+}
+
+#logo-paper {
+    top: 2230px;
+}
+
+#logo-paper-armatulista {
+    top: 2350px;
+}
+
+#logo-paper-nosotros {
+    top: 1650px;
+}
+
+#logo-paper-cuadernos {
+    top: 2490px;
+}
+
+#logo-paper-navbar {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+}
+
+#logo-paper-compraexitosa {
+    top: 300px;
+}
+
+
+#logo-paper-morrales {
+    top: 1558px;
+}
+
+#logo-paper-marcadores {
+    top: 1920px;
+}
+
+#logo-paper-carrito {
+    top: 600px;
+}
+
+#logo-paper-carritovacio{
+    top: 350px;
+
+}
+#div-paper-navbar {
+    display: flex;
+    align-items: center;
+}
+
+#img-nosotros {
+    width: 294px;
+    height: 300px;
+}
+
+@media (max-width: 1636px) {
+    #img-nosotros {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+.team {
+    margin: 30px 0;
+}
+
+.descuentos {
+    height: 600px;
+    background-color: #D4E2FF;
+}
+
+.categoria {
+    height: 300px;
+}
+
+
+
+.img-productos {
+    width: 100%;
+    height: 500px;
+}
+
+#card-destacados {
+    width: 10rem;
+    height: 20rem;
+}
+#card-arma-tu-lista{
+    width: 10rem;
+    height: 22rem;
+}
+
+#img-destacados {
+    width: 160px;
+    height: 150px;
+    text-align: center;
+}
+
+#btn-destacados {
+    background-color: #090F50;
+    color: aliceblue;
+    align-items: end;
+    align-content: end;
+    text-align: end;
+}
+
+#logo-arma-1,
+#logo-arma-2,
+#logo-arma-3,
+#logo-arma-4 {
+    height: 50px;
+}
+
+#logos-arma-1 {
+    background-color: #de010f;
+}
+
+#logos-arma-2 {
+    background-color: #0000b2;
+}
+
+#logos-arma-3 {
+    background-color: #c73385;
+}
+
+#logos-arma-4 {
+    background-color: #de010f;
+}
+
+#img-logos-arma {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+
+#logo-nosotros {
+    width: 50px;
+    height: 50px;
+}
+
+#img-morrales {
+    height: 300px;
+    width: 1900px;
+}
+
+
+#logos-categoria {
+    width: 13rem;
+    height: 14rem;
+    background-color: #090F50;
+    margin: 10px;
+    padding: 20px;
+}
+
+#img-logo-categoria {
+    width: 90px;
+    height: 90px;
+    border-radius: 40%;
+}
+
+#div-logos-categoria {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#images-descuentos {
+    height: 160px;
+    width: 190px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.quantity-button:hover {
+    background-color: #e0e0e0;
+}
+
+#quantity-input {
+    text-align: center;
+}
+
+#img-logos-marcas {
+    width: 180px;
+    height: 180px;
+}
+
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.success-message h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.success-message p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.carrito-vacio {
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+#btn-carrito {
+    width: 200px;
+    height: 40px;
+    border-radius: 8%;
+    background-color: #090F50;
+    color: white;
+}
+
+#btn-carro-vacio {
+    background-color: #090F50;
+    width: 400px;
+
+}
+
+.search-results {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.search-results p {
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-results p:hover {
+    background-color: #f0f0f0;
+}
+
+
+.p-copyright {
+    background-color: #D4E2FF;
+}
+
+.footer-section {
+    height: 380px;
+    background-color: #EFEEEE;
+}

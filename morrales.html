@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaperWorld</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="Contenedor">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5" />
+                                </svg></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./armatulista.html"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                    class="bi bi-list-task" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5zM3 3H2v1h1z" />
+                                    <path
+                                        d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1z" />
+                                    <path fill-rule="evenodd"
+                                        d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5zM2 7h1v1H2zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm1 .5H2v1h1z" />
+                                </svg></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./carrito.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                    fill="currentColor" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708" />
+                                </svg></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./nosotros.html">
+                                <img id="logo-nosotros" src="image/nosotros.jpeg" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./index.html">
+                            <img id="logo-paper-navbar" src="image/logo_paper.png" alt="">
+                        </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <nav class="navbar bg-body-tertiary">
+                                <div class="container-fluid">
+                                    <form class="d-flex" role="search">
+                                        <input id="inp1" class="form-control me-2" type="search"
+                                            placeholder="Realiza tu compra.. 🔍︎" aria-label="Search">
+                                    </form>
+                                </div>
+                            </nav>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <div id="carousel-logos" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div id="logos-morrales" class="carousel-item active">
+                    <a href="./index.html">
+                    <img id="img-morrales" src="./image/banner 1 seccion 5.webp" alt="...">
+                </a>
+                </div>
+                <div id="logos-morrales" class="carousel-item">
+                    <img id="img-morrales" src="./image/banner 2 seccion 5.webp" alt="...">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-logos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-logos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <section class="frase-cuadernos" style="background-color: #090F50; color: aliceblue; width: 1910px;">
+            <div>
+                <section class="frase" style="background-color: #090F50;">
+                    <h2 id="vale" style="text-align: center;  height: 30px;">¡Lo mejor para el inicio de clase!</h2>
+            </div>
+
+    </header>
+    <main>
+
+        <section class="MORRALES">
+
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Morral Premium Grande Bluey Candies</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$104.100</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Morral Premium Con Ruedas Grande Spidey Miles.</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$157.900</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img3.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Cartuchera  2 Bolsillos La Granja de Zenón</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$36.000</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img4.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Morral Grande Flower Power Rosado </p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$125.900</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img5.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Morral  Grande Princesas Disney Aurora & Jazmín</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$107.900</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img6.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Morral Princesa</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$159.900</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img7.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Morral Monster</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$159.900</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img8.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Morral Sport pro</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$217.900</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img9.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Morral Doble faz Tornasol</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$217.900</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img10.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Cartuchera rectangular</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$56.900</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img11.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Cartuchera 3 Bolsillos Kiut New Retro</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$19.990</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img12.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Morral Confort Kiut Mystic Sunset</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$68.850</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img13.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Cartuchera Negra Manija Stardust</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$38.900</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img14.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Morral Fashion Kiut Bold Lines</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$68.990</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card" style="width: 10rem;">
+                        <img src="./image/imagnes de bolsos( vista 3 )/img15.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Cartuchera 3 Bolsillos Blue Garden</p>
+                            <a href="./carrito.html"  class="btn btn-primary"
+                                style="background-color: #090F50; color: aliceblue">$37.770</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+    </main>
+    <section>
+        <footer>
+            <div class="row">
+                <div class="col-12 d-flex justify-content-end">
+                    <img id="logo-paper-morrales" src="image/logo_paper.png" alt="">
+                </div>
+            </div>
+            <section class="footer-section" style="height: 380px; background-color: #EFEEEE;">
+                <div class="row h-100">
+                    <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+                        <p><img class="logo-social" src="./image/logos/social.png" alt=""> 3213060145</p>
+                        <p><img class="logo-social" src="./image/logos/facebook.png" alt=""> Mundo Papel</p>
+                        <p><img class="logo-social" src="./image/logos/instagram.png" alt=""> mundopapel_papeleria</p>
+                        <p><img class="logo-social" src="./image/logos/tik-tok.png" alt=""> Mundo_papeleria</p>
+                    </div>
+                    <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+                        <h5>Nosotros</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Línea de Atención al Cliente</p>
+                            </li>
+                            <li>
+                                <p>Distribuidores a nivel nacional</p>
+                            </li>
+                            <li>
+                                <p>Ventas mayoristas</p>
+                            </li>
+                            <li>
+                                <p>Línea ética</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+                        <h5>Sobre nuestra tienda</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Preguntas frecuentes</p>
+                            </li>
+                            <li>
+                                <p>Política de protección de datos</p>
+                            </li>
+                            <li>
+                                <p>Política de devoluciones</p>
+                            </li>
+                            <li>
+                                <p>Política de envíos</p>
+                            </li>
+                            <li>
+                                <p>Política de garantía</p>
+                            </li>
+                            <li>
+                                <p>¿Cómo activar los cupones de descuento?</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </section>
+            <p style="background-color: #D4E2FF;">Copyright 2024, PaperWorld</p>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
